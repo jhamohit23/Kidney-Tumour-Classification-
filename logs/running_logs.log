@@ -192,3 +192,7 @@ x==========x]
 [2024-02-26 20:00:17,051: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2024-02-27 15:45:08,828: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-02-27 15:45:08,833: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-27 15:45:08,835: INFO: common: created directory at: artifacts]
+[2024-02-27 15:50:17,240: INFO: common: json file saved at: scores.json]
