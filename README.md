@@ -40,3 +40,46 @@ pip install -r requirements.txt
 # Finally run the following command
 python app.py
 ```
+
+Now,
+```bash
+open up you local host and port
+```
+
+
+
+
+
+
+## MLflow
+
+- [Documentation](https://mlflow.org/docs/latest/index.html)
+
+- [MLflow tutorial](https://youtu.be/qdcHHrsXA48?si=bD5vDS60akNphkem)
+
+##### cmd
+- mlflow ui
+
+### dagshub
+[dagshub](https://dagshub.com/)
+
+MLFLOW_TRACKING_URI=https://dagshub.com/jhamohit232001/Kidney-Tumour-Classification-.mlflow \
+MLFLOW_TRACKING_USERNAME=jhamohit232001 \
+MLFLOW_TRACKING_PASSWORD=1da5e3e9b4a6602d94a0b15b93a8101b2a6ac422 \
+python script.py
+
+Run this to export as env variables:
+
+```bash
+
+export DAGSHUB_API_KEY=6b195ea4cf80eb5ca621689c210fa56561be81b4
+
+
+export MLFLOW_TRACKING_URI=https://dagshub.com/jhamohit232001/Kidney-Tumour-Classification-.mlflow
+
+export MLFLOW_TRACKING_USERNAME=jhamohit232001
+
+export MLFLOW_TRACKING_PASSWORD=1da5e3e9b4a6602d94a0b15b93a8101b2a6ac422
+
+
+```
